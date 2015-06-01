@@ -3,4 +3,5 @@
     <solid android:color="@color/time_content_background_color"/>
     <stroke android:color="@color/time_content_border_color">
     </stroke>
+    <corners android:radius="5dp"/>
 </shape>

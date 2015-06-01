@@ -24,14 +24,16 @@ public class TimeLineContent {
     public String title;
     public String content;
     public String warningLevel;
+    public int pointColorId;
 
     public TimeLineContent(){
 
     }
 
-    public TimeLineContent(String title,String content,String warningLevel){
+    public TimeLineContent(String title,String content,String warningLevel,int pointColorId){
         this.title=title;
         this.content=content;
         this.warningLevel=warningLevel;
+        this.pointColorId=pointColorId;
     }
 }

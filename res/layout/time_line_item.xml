@@ -17,24 +17,24 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" android:id="@+id/textLayout"
             android:layout_alignTop="@+id/pointLayout" android:layout_toRightOf="@+id/pointLayout"
-            android:layout_margin="10dp" android:background="@drawable/time_line_content_item_background"
-            >
+            android:background="@drawable/time_line_content_item_background"
+            android:layout_margin="10dp">
         <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" android:id="@+id/titleLayout"
                 android:layout_alignParentStart="false" android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true">
+                android:layout_alignParentLeft="true" android:layout_margin="5dp">
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New Text"
-                    android:id="@+id/title_textView"/>
+                    android:id="@+id/title_textView" android:textSize="25dp"/>
         </RelativeLayout>
         <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" android:id="@+id/contentLayout"
                 android:layout_below="@+id/titleLayout" android:layout_alignLeft="@+id/titleLayout"
-                >
+                android:layout_margin="5dp">
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

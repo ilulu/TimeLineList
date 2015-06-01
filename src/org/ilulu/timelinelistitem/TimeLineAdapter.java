@@ -75,6 +75,7 @@ public class TimeLineAdapter extends BaseAdapter {
 
         viewHolder.titleView.setText(timeLine.title);
         viewHolder.contentView.setText(timeLine.content+timeLine.warningLevel);
+        viewHolder.point.colorId=timeLine.pointColorId;
         return convertView;
     }
 
