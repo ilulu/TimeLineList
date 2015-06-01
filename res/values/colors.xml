@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_point_color">#ffff6052</color>
+    <color name="green_point_color">#ff2bff6a</color>
+
+    <color name="time_content_border_color">#ff383838</color>
+    <color name="time_content_background_color">#ffffffff</color>
+</resources>
